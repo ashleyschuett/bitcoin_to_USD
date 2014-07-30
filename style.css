@@ -1,0 +1,83 @@
+body {
+	font: 10px sans-serif;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.axis path,
+.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+
+text{
+	color: white;
+}
+
+.dot {
+	  stroke: #000;
+	}
+
+.tooltip {
+	  position: absolute;
+	  width: 200px;
+	  height: 28px;
+	  pointer-events: none;
+	}
+
+#blocks{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#blocks .block{
+	width: 32%;
+	float: left;
+	margin: 5px;
+	margin-bottom: -20px;
+
+}
+
+@media (max-width: 680px){
+	#blocks .block{
+		width: 100%;
+	}
+}
+
+
+#blocks .number{
+	width: 100%;
+	font-size: 20px;
+	background-color: #27ae60; 
+	border-radius: 5px;
+	text-align: center;
+}
+
+#last, #avg, #vol{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.stats{
+	background-color: #e74c3c;
+	height: 60px;
+	width: 100px;
+	padding: 5px;
+	font-size: 11px;
+}
+
+.stats #date{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#month{
+	position: relative;
+	left: 83%;
+	top: 32px;
+}
+
+
